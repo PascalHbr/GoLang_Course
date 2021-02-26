@@ -2,14 +2,12 @@ package main
 
 import "fmt"
 
-var y int
-
 type hotdog int
 
 var b hotdog
 
 func main() {
-	y = 42
+	y := 42
 	fmt.Println(y)
 	fmt.Printf("%T\n", y)
 	fmt.Printf("%b\n", y)
