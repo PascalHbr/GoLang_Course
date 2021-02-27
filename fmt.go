@@ -4,7 +4,7 @@ import "fmt"
 
 type hotdog int
 
-var b hotdog
+var z hotdog
 
 func main() {
 	y := 42
@@ -16,9 +16,9 @@ func main() {
 	y = 911
 	s := fmt.Sprintf("%#x\t%b\t%x", y, y, y)
 	fmt.Println(s)
-	b = 43
-	fmt.Println(b)
-	fmt.Printf("%T\n", b)
-	y = int(b)
+	z = 43
+	fmt.Println(z)
+	fmt.Printf("%T\n", z)
+	y = int(z)
 	fmt.Println(y)
 }
